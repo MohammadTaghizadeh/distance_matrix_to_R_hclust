@@ -4,5 +4,7 @@ the form of clustering could be use for ploting and clustering protein sequences
 
 steps:
 1- give your protein sequences to the MegaX software and calculate the distance matrix with selecting p-distance as the method.
+   before using the sequences in fasta fromat, change the header of each sequence to a short header, i.e. just uniprot AC. 
 2- save the matrix as a csv matrix.
+
 3- use the this R script to achive the the hierarchical plot for your sequences. 
